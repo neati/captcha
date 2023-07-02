@@ -8,5 +8,9 @@ setup(
     author="neati",
     author_email="p@neati.com",
     packages=["captcha"],
-    install_requires=["numpy", "opencv-python", "pytesseract"],
+    install_requires=[
+        "numpy",
+        "opencv-python",
+        "pytesseract",
+    ],
 )

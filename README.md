@@ -1,12 +1,26 @@
 # Captcha
 
-### Install
+## Requirements
+
+### Tesseract
+
+**macOS**
+
+```bash
+brew install tesseract
+```
+
+**Windows**
+
+https://github.com/UB-Mannheim/tesseract/wiki
+
+## Install
 
 ```bash
 pip install git+https://github.com/neati/captcha.git
 ```
 
-### Usage
+## Usage
 
 ```python
 from captcha import decode_captcha
